@@ -1,0 +1,5 @@
+---
+alwaysApply: true
+---
+
+This is a MCP server for LLMs written in Python. It enables LLMs to fetch information from Wikipedia and them summarize it to the user. It does this by issuing a search request to Wikipedia servers, the fetching the raw wikitext of the first found page.
