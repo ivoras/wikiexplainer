@@ -17,7 +17,7 @@ def search_wikipedia_md(query: str) -> str:
         "format": "json"
     }
     headers = {
-        "User-Agent": "WikiExplainer/1.0 (https://github.com/user/wikiexplainer)"
+        "User-Agent": "WikiExplainer/1.0 (https://github.com/ivoras/wikiexplainer)"
     }
 
     response = requests.get(opensearch_url, params=opensearch_params, headers=headers)
